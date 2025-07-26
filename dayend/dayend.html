@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="../../assets/css/fullcalendar.css" rel="stylesheet" type="text/css" /> -->
+    <link href="../../assets/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Stay organized with our user-friendly Calendar featuring events, reminders, and a customizable interface. Built with HTML, CSS, and JavaScript. Start scheduling today!" />
+    <meta name="keywords" content="calendar, events, reminders, javascript, html, css, open source coding" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="../../src/admin/admin.css" />
+    <title>Day End Process</title>
+</head>
+<style>
+    .container {
+        position: relative;
+        width: 1100px;
+        min-height: 850px;
+        margin: 0 auto;
+        padding: 5px;
+        color: black;
+        display: flex;
+
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .my-class {
+        /* background: black; */
+        pointer-events: none
+    }
+
+    #datepicker {
+        width: 150px;
+    }
+
+    /* .my-class a {
+        background: red !important;
+    } */
+    /* .date-class {
+        background: black;
+        pointer-events:none
+    }
+    .date-class a {
+        background: greenyellow !important;
+    } */
+</style>
+
+<body>
+
+    <!-- <div style="text-align: right;">
+            <button id="log-out" type="button" class="btn btn-warning waves-effect waves-light">
+                <i class="glyphicon glyphicon-log-out"></i>
+            </button>
+            <button id="quit" type="button" class="btn btn-danger waves-effect waves-light">
+                <i class="glyphicon glyphicon-off"></i>
+            </button>
+        </div> -->
+
+    <div class="container" id="dayendScreen">
+        <h1 style="text-align: center; color: black;">DayEnd Report</h1>
+        <div class="row" style="font-size: 22px;">
+            <br>
+            <div class="col-md-4">
+                <label for="POSName">POS : </label>
+                <label id="POSName"></label>
+            </div>
+            <div class="col-md-4">
+                <label for="BillCounterName">Counter : </label>
+                <label id="BillCounterName"> </label>
+            </div>
+            <div class="col-md-4">
+                <label for="BillDate">EOD Date : </label>
+                <!-- <label id="BillDate"></label> -->
+                <input type="text" id="datepicker" disabled>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" id="dayendSales">
+                <hr>
+                <table class="table tablesaw-enhanced" id="productsList">
+                    <thead>
+                        <tr>
+                            <th colspan="3" style="text-align: center; color: black;">Sales</th>
+                        </tr>
+                    </thead>
+                    <tbody id="sales_list" style="color: black;"></tbody>
+                </table>
+                <p>&nbsp; <label id="UnpaidBills"> </label></p>
+                <p>&nbsp; <label id="cancelbill"> </label></p>
+                <p>&nbsp; <label id="cateringAdvance"></label></p>
+                <p>&nbsp; <label id="cateringCard"></label></p>
+                <p>&nbsp; <label id="cateringOnline"></label></p>
+                <table class="table tablesaw-enhanced" id="productsList">
+                    <thead>
+                        <tr>
+                            <th colspan="3" style="text-align: center; color: black;">Cash Transactions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="payment_list" style="color: black;"></tbody>
+                </table>
+
+            </div>
+            <div class="col-md-6" id="dayendpayments">
+                <hr>
+
+                <table class="table tablesaw-enhanced" id="productsList">
+                    <thead>
+                        <tr>
+                            <th colspan="2" style="text-align: center; color: black;">Payments</th>
+                        </tr>
+                    </thead>
+                    <tbody id="balance_list" style="color: black;"></tbody>
+                </table>
+                <table class="table tablesaw-enhanced" id="productsList">
+                    <thead>
+                        <tr>
+                            <th colspan="5" style="text-align: center; color: black;">DENOMINATION- CASH SALES</th>
+                        </tr>
+                        <tr>
+                            <th style="color: black;">Rupee</th>
+                            <th style="color: black;"> &nbsp;</th>
+                            <th style="color: black;">Nos</th>
+                            <th style="color: black;">Value As</th>
+                            <th style="color: black;">Remarks</th>
+                        </tr>
+                    </thead>
+                    <tbody id="Denomination_list" style="color: black;"></tbody>
+                </table>
+            </div>
+            <div class="actions" style="margin-bottom:20px ;">
+                <button type="button" class="btn btn-success" style="text-align: right; margin-left: 750px;"
+                    onclick="$(this).print()"> Print </button>
+                <button type="button" class="btn btn-success" id="CounterDayend" style="text-align: right; margin-left: 15px;"
+                    onclick="$(this).counterDayEnd()">Print & DayEnd</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button class="btn btn-danger" style="margin-top: -16px; float:right;"
+                onclick="$(this).Cancel()">Close</button>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
+<script> window.$ = window.jQuery = require('jquery'); </script>
+<script>require('./dayend.js');</script>
+
+<script src="../../assets/js/datepicker.min.js"></script>
+<script src="../../assets/js/datepickerjquery.min.js"></script>
+<script src="../../src/dayend/dayend.js"></script>
+<script src="../../assets/js/menu.js"></script>

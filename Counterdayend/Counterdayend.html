@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Stay organized with our user-friendly Calendar featuring events, reminders, and a customizable interface. Built with HTML, CSS, and JavaScript. Start scheduling today!" />
+    <meta name="keywords" content="calendar, events, reminders, javascript, html, css, open source coding" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="../../src/admin/admin.css" />
+    <!-- <title>Aahhaa-</title> -->
+</head>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 50px;
+        margin-top: 15px;
+        color: #5CB85C;
+        width: 120px;
+
+    }
+
+    .Billcountername {
+        font-weight: bold;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    .txtbox {
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+
+    #close:hover {
+        background-color: white
+    }
+</style>
+
+
+
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <img style="float: left;" src="../../assets/images/logo-default.png" style="width: 185px;" alt="logo">
+
+
+
+        </div>
+        <div class="txtbox">
+            <h1 id="BillCounter" class="Billcountername"> </h1>
+            <span class=" glyphicon glyphicon-remove" id="close" style=" float:right; margin-top: -90px;   font-size: 35px;
+              color: red;" onclick="$(this).Cancel()"></span>
+
+        </div>
+
+
+        <div class="calendar">
+            <div class="month">
+                <i class="glyphicon glyphicon-chevron-left prev"></i>
+                <div class="date">december 2015</div>
+                <i class="glyphicon glyphicon-chevron-right   next"></i>
+            </div>
+
+
+        </div>
+        <div id="calendar"></div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+<script> window.$ = window.jQuery = require('jquery'); </script>
+<script>require('./Counterdayend.js');</script>
+<script src="../../src/Counterdayend/Counterdayend.js"></script>
+<script src="../../assets/js/menu.js"></script>

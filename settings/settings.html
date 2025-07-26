@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/icons.css" rel="stylesheet" type="text/css" />
+     <!-- <link href="../../assets/css/custom.css" rel="stylesheet" type="text/css" /> -->
+     <!-- <link href="../../node_modules/autocompleter/autocomplete.js" rel="stylesheet" type="text/css" /> -->
+</head>
+<style>
+     input[type=checkbox] {
+        margin: 4px 0 0;
+        line-height: normal;
+        width: 20px;
+        height: 20px;
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked+.slider {
+        background-color: #2196F3;
+    }
+
+    input:focus+.slider {
+        box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /*Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+</style>
+
+<body>
+     <div class="col-xs-12">
+          <div class="container">
+               <div class="row">
+                    <div class="container" style="font-size: 25px;margin-top:20px;">
+                         <div class="col-xs-5">
+                              <label>Printer Name </label>
+                         </div>
+                         <div class="col-xs-5">
+                              <input type="text" class="form-control" id="printername" maxlength="50">
+                         </div>
+                    </div>
+                    <div class="container" style="font-size: 22px;margin-top:20px;">
+                         <div class="row">
+                              <div class="col-xs-6">
+                                   <div class="col-xs-8">
+                                        <label>PineLabs Payment </label>
+                                   </div>
+                                   <div class="col-xs-4" style="text-align: end;">
+                                        <label class="switch">
+                                             <input type="checkbox"  id="IsPineLabPaymentMode" onclick="$(this).IsPineLabPaymentMode()"> <span class="slider round"></span>
+                                        </label>
+                                        <label id="IsPineMode"></label>
+                                   </div>
+                              </div>
+                              <div  id="IsNormal" class="col-xs-6">
+                                   <div class="col-xs-8">
+                                        <label>Normal Payment </label>
+                                   </div>
+                                   <div class="col-xs-4" style="text-align: end;">
+                                        <label class="switch">
+                                             <input type="checkbox"  id="IsNormalPaymentMode" onclick="$(this).IsNormalPaymentMode()"> <span class="slider round"></span>
+                                        </label>
+                                        <label id="IsNormalMode"></label>
+                                   </div>
+                              </div>
+
+                              <div class="col-xs-6">
+                                   <div class="col-xs-8">
+                                        <label>Paytm Payment </label>
+                                   </div>
+                                   <div class="col-xs-4" style="text-align: end;">
+                                        <label class="switch">
+                                             <input type="checkbox"  id="IsPaytmPaymentMode" onclick="$(this).IsPaytmPaymentMode()" > <span class="slider round"></span>
+                                        </label>
+                                        <label id="IsPaytmMode"></label>
+                                   </div>
+                              </div>
+
+                         </div>
+                    </div>
+                    <div class="container"  id="IsPineModeOption" style="font-size: 22px;margin-top:20px;">
+                         <div class="row">
+                              <div class="col-xs-6">
+                                   <div class="col-xs-8">
+                                        <label>Multiple Payment </label>
+                                   </div>
+                                   <div class="col-xs-4" style="text-align: end;">
+                                        <label class="switch">
+                                             <input type="checkbox"  id="IsMultiplePaymentMode" onclick="$(this).IsMultiplePaymentMode()"> <span class="slider round"></span>
+                                         </label>
+                                        <label id="IsMultipleMode"></label>
+                                   </div>
+                              </div>
+                              <div  class="col-xs-6">
+                                   <div class="col-xs-8">
+                                        <label>Bank Code</label>
+                                   </div>
+                                   <div class="col-xs-4" style="text-align: end;">
+                                        <input type="text" class="form-control" id="IsBankCode" maxlength="2" style="font-size: 26px;font-weight: 700;">
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-3">
+                         <button class="btn btn-success" style="margin-top:20px;" id="save"
+                              onclick="$(this).saveData(event)" >Save</button>
+                    </div>
+                    <button class="btn btn-danger" style="margin-top:20px;" onclick="$(this).Cancel()">Close</button>
+               </div>
+
+               <hr>
+
+               <div class="row">
+                    <div class="container" style="font-size: 25px;margin-top:20px;">
+                         <!-- <div class="col-xs-5">
+                              <label>Clear Data </label>
+                         </div> -->
+                         <div class="col-xs-5">
+                              <button class="btn btn-success" id="ClearBillBill" onclick="$(this).ClearBill('1')">Clear Data</button>
+                         </div>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</body>
+<script> window.$ = window.jQuery = require('jquery'); </script>
+<script>require('./settings.js');</script>

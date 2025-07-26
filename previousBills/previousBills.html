@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/autocomplete.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="../../assets/css/custom.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../node_modules/autocompleter/autocomplete.js" rel="stylesheet" type="text/css" /> -->
+</head>
+<style>
+    .colhead {
+        color: black;
+    }
+
+    body {
+        color: black;
+        border-radius: 5px;
+        padding: 20px;
+        font-family: sans-serif;
+        text-align: justify;
+        /* border: 5px solid #0d0d0e; */
+    }
+
+    .TotalAmount {
+        font-size: 20px;
+        margin-top: -25px;
+        margin-right: 45px;
+
+    }
+    
+   .badge {
+       /* background-color:#007bff; */
+       /* color: white;
+        padding: 4px 8px;
+        text-align: center; */
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row" style="font-size: 22px;">
+            <!-- <h1 style="text-align: center; color: black;">Previous Bills</h1> -->
+            <div class="row">
+                <div class="col-md-7"><h1 style="text-align: end; color: black;">Previous Bills</h1></div>
+                <div class="col-md-5" style="text-align: end; color: black;">
+                    <label for="Time">Time : </label>
+                    <label id="currentDateTime"  style="margin-right: 56px;margin-top: 25px;"></label>
+                </h1></div>
+            </div>
+            <span style=" float: inline-start;margin-left: 10px;">
+                <label for="Billcounter">CounterName : </label>
+                <label id="Billcounter"></label>
+            </span>
+
+            <span style="float: right; margin-right: 20px;">
+                <label for="BillDate">Date: </label>
+                <input type="text" id="datepicker" style="width:160px;">
+            </span>
+        </div>
+        <div class="row">
+            <span style="float: inline-start;margin-left: 10px; font-size: 22px;">
+                <label for="SearchBill">SearchBill : </label>
+                <input type="text" id="SearchBill" style="width: 220px;" onkeyup="$(this).SearchBill()">
+            </span>
+            
+            <!-- <span style="float: inline-start;margin-left: 10px; font-size: 22px;" id="HOURS" >
+                <label style="font-size: 20px;">Hours :</label>
+                <select name="deliveryhours" style="font-size:20px;width: 75px;display:inline-flex" id="deliveryhours" class="form-control" ></select>
+            </span>
+
+            <span style="float: inline-start;margin-left: 10px; font-size: 22px;" id="MINUTES" >
+                <label style="font-size: 20px;">Minutes :</label>
+                <select name="deliveryminutes" style="font-size:20px;width: 75px;display:inline-flex"  id="deliveryminutes" class="form-control"></select>
+            </span> -->
+            
+            <span style="float: right;margin-right:20px;font-size:22px;">
+                <label for="type">Type</label>
+                <select name="type" id="type" style="width:160px;font-size:18px;">
+                    <option value="">--Select Type--</option>
+                    <option value="1">Paid</option>
+                    <option value="0">UnPaid</option>
+                </select>
+            </span>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+            <span style="float: inline-start;margin-left: 10px; font-size: 14px;">
+                <input type="checkbox" id="Cashiercheckbox" name="Cashiercheckbox" value="0">
+                <label for="Cashiercheckbox">Cashierwise Report</label> 
+            </span>
+
+            <span style="float: inline-start;margin-left: 10px; font-size: 22px;">
+                <button type="button" style=" font-size: 15px;" class="btn btn-success" onclick="$(this).Reports('1')"><b>Print Sale Report</b></button>
+            </span>
+
+            <span style="float: inline-start;margin-left: 10px; font-size: 22px;">
+                <button type="button" style=" font-size: 15px;" class="btn btn-success" onclick="$(this).Reports('0')"><b>Preview Sale Report</b></button>
+            </span>
+
+            <!-- <span style="float: inline-start;margin-left: 10px; font-size: 14px;">
+                <input type="checkbox" id="ShiftWisecheckbox" name="ShiftWisecheckbox" value="0">
+                <label for="ShiftWisecheckbox">Shift Wise report</label> 
+            </span> -->
+
+            <span style="float: inline-start;margin-left: 10px; font-size: 22px;">
+                <button type="button" style=" font-size: 15px;" id="printWaiterReport" class="btn btn-success" onclick="$(this).WaiterReport('1')"><b>Print Waiter Sale Report</b></button>
+            </span>
+
+            <span style="float: inline-start;margin-left: 10px; font-size: 22px;">
+                <button type="button" style=" font-size: 15px;" id="previewWaiterReport" class="btn btn-success" onclick="$(this).WaiterReport('0')"><b>Preview Waiter Sale Report</b></button>
+            </span>
+
+
+            <span style="float: inline-start;margin-left: 10px; font-size: 22px;" id="Timepicker">
+                <input type="time" id="myTime" />
+            </span>
+
+            <!-- <span style="float: right; margin-right: 10px;font-size:22px;">
+                <label for="Time">Time</label>
+                <label id="currentDateTime"></label>
+            </span> -->
+
+            </div>
+        </div>
+
+   
+        <div class="col-md-12" id="previousBills">
+            <hr>
+            <table class="table tablesaw-enhanced" id="billsList">
+                <thead>
+                    <tr>
+                        <!-- <th>Bill No</th>
+                        <th>Bill Time</td>
+                        <th style="text-align:right">Bill Value</th>
+                        <th style="text-align:right">GST</th>
+                        <th style="text-align:right">Round off</th>
+                        <th style="text-align:right">Net Amount</th>
+                        <th style="text-align:right">Service Type</th>
+                        <th style="text-align:right">Cash</th>
+                        <th style="text-align:right">Card</th>
+                        <th style="text-align:right">Online</th>
+                        <th style="text-align:center">Bill Type</th>
+                        <th>Paid</th>
+                        <th>Actions</th> -->
+                    </tr>
+                </thead>
+
+                <tbody id="bills_list" style="color: black;"></tbody>
+            </table>
+
+        </div>
+
+
+
+    </div>
+    <div class="footer">
+        <button class="btn btn-danger" style="margin-top: -16px; float:right;" onclick="$(this).Cancel()">Close</button>
+
+        <label id="Totalcash" class="TotalAmount"> </label>
+        <label id="Totalcard" class="TotalAmount"> </label>
+        <label id="Totalonline" class="TotalAmount"> </label>
+        <label id="TotalSales" class="TotalAmount"> </label>
+    </div>
+</body>
+
+
+</html>
+
+<script> window.$ = window.jQuery = require('jquery'); </script>
+
+<script src="../../assets/js/datepicker.min.js"></script>
+<script src="../../assets/js/datepickerjquery.min.js"></script>
+<script>require('./previousBills.js');</script>

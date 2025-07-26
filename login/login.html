@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/components.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="../../assets/css/icons.css" rel="stylesheet" type="text/css" /> -->
+    <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="../../assets/plugins/chosen/chosen.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../assets/plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../assets/plugins/dataTables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../assets/plugins/dataTables/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+    <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+    <div class="main_app">
+        <div class="login-bg-img">
+            <div style="text-align-last:end">
+                <button id="Minimize" type="button" class="btn btn-primary waves-effect waves-light">
+                    <i class="glyphicon glyphicon-minus"></i>
+                </button>
+                <button id="quit" type="button" class="btn btn-danger waves-effect waves-light">
+                    <i class="glyphicon glyphicon-remove"></i>
+                </button>
+            </div>
+            <div id="login-bg">
+                <form id="account">
+                    <div class="text-center">
+                        <img src="../../assets/images/logo-default.png" style="width: 185px;" alt="logo">
+                        <div class="form-group">
+                            <input type="text" placeholder="Username" name="username" id="loginpg_email"
+                                class="form-control">
+                        </div>
+                        <div class="form-group">
+
+
+
+                            <input type="password" placeholder="Password" id="loginpg_password" name="password"
+                                class="form-control"><br>
+                            <p style="color: black;"> <input type="checkbox" onclick="$(this).myFunction()"> &nbsp; Show
+                                Password</p>
+
+                        </div>
+
+                        <div class="form-group">
+                            <button class="btn  btn-success btn-block" type="submit"
+                                onclick="$(this).signInClick(event)">
+                                Login
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 
+    <script src="../../assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="../../assets/plugins/chosen/chosen.jquery.min.js"></script>
+    <script src="../../assets/plugins/jquery-ui/jquery.form.min.js"></script>
+    <script src="../../assets/plugins/daterangepicker/daterangepicker.min.js"></script>
+    <script src="../../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
+    <script src="../../assets/plugins/dataTables/jquery.dataTables.bootstrap.js"></script>
+    <script src="../../assets/plugins/dataTables/dataTables.buttons.min.js"></script>
+    <script src="../../assets/plugins/dataTables/buttons.html5.min.js"></script>
+    <script src="../../assets/plugins/dataTables/pdfmake.min.js"></script>
+    <script src="../../assets/plugins/dataTables/vfs_fonts.js"></script> -->
+</body>
+
+</html>
+
+<script> window.$ = window.jQuery = require('jquery'); </script>
+<script>require('./login.js');</script>
