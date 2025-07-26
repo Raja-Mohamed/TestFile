@@ -1,0 +1,323 @@
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:21:59+05:30 - LoginId: 107 -Error: SQLITE_ERROR: no such column: IsDayEndApprove -reject updateDayendApprove : UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:22:03+05:30 - LoginId: 107 -Error: SQLITE_ERROR: table tblDayInfo has no column named IsDayEndApprove -addDayInfo
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:10+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-04T18:23:30+05:30 - LoginId: 107 - -AddIsDayStart
+2023-12-04T18:23:30+05:30 - LoginId: 107 -valid -UpdateWaiterAppSaleHeader
+2023-12-04T18:24:40+05:30 - LoginId: 107 -valid -UpdateWaiterAppSaleHeader
+2023-12-04T18:25:00+05:30 - LoginId: 107 -valid -UpdateWaiterAppSaleHeader
+2023-12-21T11:15:03+05:30 - LoginId: 107 -SQLITE_ERROR: table tblBillCounter has no column named IPAddress -addBillCounters
+2023-12-21T11:15:03+05:30 - LoginId: 107 -SQLITE_ERROR: table tblBillCounter has no column named IPAddress -adddetailsList from login page
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:16:56+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:17:14+05:30 - LoginId: 107 - -AddIsDayStart
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:12+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:24:25+05:30 - LoginId: 107 - -AddIsDayStart
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-21T11:41:57+05:30 - LoginId: 107 - -AddIsDayStart
+2023-12-21T11:53:06+05:30 - LoginId: 107 -Invalid UserName or Password -GetAllBillCountersandItemsForPOS
+2023-12-21T11:53:21+05:30 - LoginId: 108 -Column 'Description' cannot be null -UpdatePOSDayEndBills
+2023-12-21T11:56:44+05:30 - LoginId: 108 -Column 'Description' cannot be null -UpdatePOSDayEndBills
+2023-12-21T11:58:45+05:30 - LoginId: 108 -Incorrect number of arguments for PROCEDURE aahhaa_db_live_testing.spUpdatePOSDayEnd; expected 9, got 13 -UpdatePOSDayEndBills
+2023-12-21T11:59:16+05:30 - LoginId: 108 -Unknown database 'aahhaa_db_live' -UpdatePOSDayEndBills
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:23:04+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-22T11:26:08+05:30 - LoginId: 107 - -AddIsDayStart
+2023-12-22T16:25:15+05:30 - LoginId: 80 -Invalid UserName or Password -GetAllBillCountersandItemsForPOS
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-23T11:19:50+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2023-12-23T16:25:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:25:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:28:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:29:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:29:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:29:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:29:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:30:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:30:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:30:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:30:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:30:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:31:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:31:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:31:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:31:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:31:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:32:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:32:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:32:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:32:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:32:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:32:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:32:57+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:33:02+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:33:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:33:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:34:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:34:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:34:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:34:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:34:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:34:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:34:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:35:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:35:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:35:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:35:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:35:57+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:36:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:36:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:36:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:36:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:36:53+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:36:57+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:37:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:37:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:37:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:37:57+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:38:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:39:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:39:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:39:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:39:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:39:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:40:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:40:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:41:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:41:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:41:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:42:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:42:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:42:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:42:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:42:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:42:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:42:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:43:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:43:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:44:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:44:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:44:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:44:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:45:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:45:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:45:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:46:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:46:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:46:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:46:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:47:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:47:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:47:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:48:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:49:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:50:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:51:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:51:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:51:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:51:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:51:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:51:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:51:57+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:02+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:37+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:52:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:02+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:42+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:53:57+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:54:02+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:54:12+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:54:17+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:54:22+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:54:27+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:54:32+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:55:47+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:55:57+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:56:02+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:56:07+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:56:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:57:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:58:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T16:59:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:00:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:01:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:02:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:03:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:04:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:05:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:06:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:07:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:08:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:09:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:10:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:11:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:12:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:13:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:14:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:15:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:16:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:17:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:18:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:19:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:20:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:21:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:22:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:23:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:24:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:25:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:26:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:27:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:28:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:29:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:30:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:31:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:32:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:33:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:34:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:35:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:36:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:37:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:38:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:39:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:40:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:41:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:42:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:43:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:44:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:45:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:46:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:47:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:48:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:49:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:50:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:51:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails
+2023-12-23T17:52:52+05:30 - LoginId: 107 -[object Object] -GetWaiterAppSaleDetails

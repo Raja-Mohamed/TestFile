@@ -1,0 +1,349 @@
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:15+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-03T10:24:29+05:30 - LoginId: 107 -valid -GetCateringItemDetails
+2024-01-03T10:24:29+05:30 - LoginId: 107 -valid -GetCateringVesselDetails
+2024-01-05T12:28:14+05:30 - LoginId: 107 -SQLITE_RANGE: column index out of range -addPOSSettings
+2024-01-05T12:28:14+05:30 - LoginId: 107 -SQLITE_RANGE: column index out of range -adddetailsList from login page
+2024-01-09T10:24:42+05:30 - LoginId: 107 -SQLITE_ERROR: table tblPOSSettings has no column named KOTPassword -addPOSSettings
+2024-01-09T10:24:42+05:30 - LoginId: 107 -SQLITE_ERROR: table tblPOSSettings has no column named KOTPassword -adddetailsList from login page
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-10-28'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-07'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-17'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-10'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-27'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-11-24'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 152 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 153 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:39+05:30 - LoginId: 107 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-21'  AND  BillCounterId = 150 AND CompanyId = 24 AND POSId = 2
+2024-01-09T10:25:50+05:30 - LoginId: 107 -valid -GetCateringItemDetails
+2024-01-09T10:25:50+05:30 - LoginId: 107 -valid -GetCateringVesselDetails
+2024-01-09T10:26:25+05:30 - LoginId: 107 -valid -GetCateringItemDetails
+2024-01-09T10:26:25+05:30 - LoginId: 107 -valid -GetCateringVesselDetails
+2024-01-09T10:26:25+05:30 - LoginId: 107 -valid -GetBulkOrderBookingDetail
+2024-01-09T10:26:25+05:30 - LoginId: 107 -valid -GetBulkOrderBookingPayments
+2024-01-09T10:26:25+05:30 - LoginId: 107 -valid -GetBulkOrderBookingCustomerDetail
+2024-01-09T10:26:25+05:30 - LoginId: 107 -valid -GetBulkOrderBookingVessels
+2024-01-09T10:27:05+05:30 - LoginId: 107 -valid -GetCateringItemDetails
+2024-01-09T10:27:05+05:30 - LoginId: 107 -valid -GetCateringVesselDetails
+2024-01-09T10:27:05+05:30 - LoginId: 107 -valid -GetBulkOrderBookingDetail
+2024-01-09T10:27:05+05:30 - LoginId: 107 -valid -GetBulkOrderBookingPayments
+2024-01-09T10:27:05+05:30 - LoginId: 107 -valid -GetBulkOrderBookingCustomerDetail
+2024-01-09T10:27:05+05:30 - LoginId: 107 -valid -GetBulkOrderBookingVessels
+2024-01-09T10:27:28+05:30 - LoginId: 107 -valid -GetCateringItemDetails
+2024-01-09T10:27:28+05:30 - LoginId: 107 -valid -GetCateringVesselDetails
+2024-01-09T10:27:28+05:30 - LoginId: 107 -valid -GetBulkOrderBookingDetail
+2024-01-09T10:27:28+05:30 - LoginId: 107 -valid -GetBulkOrderBookingPayments
+2024-01-09T10:27:28+05:30 - LoginId: 107 -valid -GetBulkOrderBookingCustomerDetail
+2024-01-09T10:27:28+05:30 - LoginId: 107 -valid -GetBulkOrderBookingVessels
+2024-01-09T10:27:32+05:30 - LoginId: 107 - -AddIsDayStart
+2024-01-18T11:15:41+05:30 - LoginId: 107 -Invalid UserName or Password -GetAllBillCountersandItemsForPOS
+2024-01-18T12:32:20+05:30 - LoginId: 80 -Invalid UserName or Password -GetAllBillCountersandItemsForPOS
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:32:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:48+05:30 - LoginId: 130 -Invalid UserName or Password -GetAllBillCountersandItemsForPOS
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:46:54+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:30+05:30 - LoginId: 130 -TypeError: Cannot read properties of undefined (reading 'Seats') -getBillCounterTableSeats
+2024-01-18T12:47:31+05:30 - LoginId: 130 -TypeError: Cannot read properties of undefined (reading 'Seats') -getBillCounterTableSeats
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:47:41+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:48:35+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T12:50:27+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T13:41:19+05:30 - LoginId: 130 - -AddIsDayStart
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:12+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T14:49:37+05:30 - LoginId: 130 - -AddIsDayStart
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:15:25+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-13'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-15'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-06-16'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 179 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 383 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 158 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-08'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-24'  AND  BillCounterId = 505 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-17'  AND  BillCounterId = 180 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-07-27'  AND  BillCounterId = 181 AND CompanyId = 50 AND POSId = 13
+2024-01-18T15:26:26+05:30 - LoginId: 130 - -resolve Updated successfully :UPDATE tblDayInfo  SET IsDayEndApprove = 1 WHERE DayEndDate = '2023-08-07'  AND  BillCounterId = 156 AND CompanyId = 50 AND POSId = 13

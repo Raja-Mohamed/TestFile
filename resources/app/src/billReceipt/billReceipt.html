@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/autocomplete.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="../../assets/css/custom.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../node_modules/autocompleter/autocomplete.js" rel="stylesheet" type="text/css" /> -->
+</head>
+<style>
+    .colhead {
+        color: black;
+    }
+
+    .center {
+        text-align: center;
+        color: white;
+    }
+
+    .actions {
+        margin-bottom: 50px;
+        margin-top: -1px;
+        margin-right: 80px;
+        float: right;
+    }
+
+    .title {
+        text-align: center;
+        color: black;
+    }
+
+    .radios {
+        margin-left: 10px;
+        float: left;
+    }
+
+    .markas {
+        margin-right: 80px;
+        float: right;
+    }
+
+    input[type='radio'] {
+        accent-color: green;
+        height: 22px;
+        width: 22px;
+    }
+
+    input[type=checkbox] {
+        margin: 4px 0 0;
+        line-height: normal;
+        width: 20px;
+        height: 20px;
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked+.slider {
+        background-color: #2196F3;
+    }
+
+    input:focus+.slider {
+        box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+    
+    /* body {
+        color: black;
+        border-radius: 5px;        
+        padding: 20px;
+        font-family: sans-serif;
+        text-align: justify;
+        border: 5px solid #0d0d0e;
+    } */
+     
+    /*pine labs badge and time out css*/
+
+    .blink {
+        animation: blinker 1s step-start infinite;
+    }
+
+   .badge {
+       /* background-color:#007bff;*/
+        /* color: white;
+        padding: 4px 8px;
+        text-align: center; */
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    @keyframes blinker {
+        50% {opacity: 0;}
+    }
+
+</style>
+
+<body>
+    <div class="container" id="" billreceiptwindow>
+        <h1 class="title"> Bill Receipt</h1>
+        <div>
+            <span class="radios">
+                <span style="font-size: 20px; margin-right: 20px;">
+                    <input type="radio" id="PendingBills" name="Bills" value="PendingBills"
+                        onclick="$(this).onClickBills('pending')" checked="checked">
+                    <label for="PendingBills">Pending Bills </label>
+                </span>
+                <span style="font-size: 20px;">
+                    <input type="radio" id="CreditBills" name="Bills" onclick="$(this).onClickBills('Credit')"
+                        value="CreditBills">
+                    <label for="CreditBills">Credit Bills </label>
+                </span>
+            </span>
+            <span class="markas">
+                <span style="margin-right: 50px;">
+                    <button type="button" class="btn btn-success" style=" font-size: 18px;"
+                        onclick="$(this).IsMarkComplementryBills()">Mark As
+                        Complimentary</button>
+                </span>
+                <span>
+                    <button type="button" id="IsMarkCreditBills" style=" font-size: 18px;" class="btn btn-success"
+                        onclick="$(this).IsMarkCreditBills()">Mark
+                        As CreditBill
+                    </button>
+                </span>
+            </span>
+        </div>
+
+        <div class="row" style="font-size: 20px;">
+            <div class="col-sm-6" id="IsPendingBills">
+                <div id="pendingBills">
+                    <h3 class="center" style="background-color: #5cb85c;">Pending Bills</h1>
+                        <div class="modal-body" id="billSlotButtons">
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-6" id="IsCreditBills">
+                <div id="creditBills">
+                    <h3 class="center" style="background-color: #5cb85c;">Credit Bills</h1>
+                        <div class="modal-body" id="creditBillSlotButtons">
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-6" id="pendingBill">
+                <table class="table tablesaw-enhanced" id="billsList" style="margin-top: 10px;">
+                    <tbody id="pendingBills" style="color: black;">
+                        <tr>
+                            <td>Bill No
+                            </td>
+                            <td><input type="text" id="BillNo"> </td>
+                        </tr>
+                        <tr>
+                            <td> Table No </td>
+                            <td><label for="Table" id="TableNo"></label> </td>
+                        </tr>
+                        <tr>
+                            <td>Customer Name <i class="fa fa-user" aria-hidden="true"></i></td>
+                            <td><input type="text" id="CustomerName" maxlength="50" > </td>
+                        </tr>
+                        <tr>
+                            <td> Phone <i class="fa fa-phone-square" aria-hidden="true"></i></td>
+                            <td><input type="text" id="phoneNo" onkeypress="$(this).keyPress(event)" maxlength="12"> </td>
+
+                        </tr>
+                        <tr>
+                            <td> GST # </td>
+                            <td><input type="text" id="GSTNo" maxlength="50"> </td>
+
+                        </tr>
+                        <tr>
+                            <td> Ref # </td>
+                            <td><input type="text" id="RefNo" maxlength="50"> </td>
+
+                        </tr>
+                        <tr>
+                            <td> Other State Customer ? </td>
+                            <td><label class="switch">
+                                <input type="checkbox"  onclick="$(this).IsOtherStateCustomer()"
+                                    id="IsOtherStateCustomer">
+                                <span class="slider round"></span>
+                            </label>
+                            <label id="IsOtherStateCustomerOpt">
+                                No
+                            </label></td>
+
+                        </tr>
+                        <tr>
+                            <td> Amount <i class="fa fa-inr" aria-hidden="true"></i></td>
+                            <td><label for="Amount" id="NetAmount"></label> </td>
+
+                        </tr>
+                        <tr>
+                            <td> Cash </td>
+                            <td><i class="fa fa-money" aria-hidden="true"></i>&nbsp;
+                                <input type="text" id="CashAmount" onkeyup="$(this).calculateAmount(event)" style="width: 215px;"> 
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Card</td>
+                            <td><i class="fa fa-credit-card" aria-hidden="true"></i>&nbsp;
+                                <input type="text" id="CardAmount" onkeyup="$(this).calculateAmount(event)" style="width: 215px;"> 
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td> Online</td> 
+                            <td><i class="fa fa-qrcode" aria-hidden="true"></i>&nbsp;&nbsp;
+                                <input type="text" id="OnlineAmount" onkeyup="$(this).calculateAmount(event)" style="width: 215px;">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Amount Paid </td>
+                            <td><label for="AmountPaid" id="AmountPaid"></label> </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                Balance </td>
+                            <td><label for="Balance" id="Balance"></label> </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="actions">
+                <button class="btn btn-danger" onclick="$(this).Cancel()"
+                    style="margin-left: 20px; font-size: 20px;">Close</button>
+                <button class="btn btn-success" style="margin-left: 100px;  font-size: 20px;"
+                    onclick="$(this).printBill()">Print Bill</button>
+                <button class="btn btn-success" id="Pay" onclick="$(this).Pay(0)"
+                    style="margin-left: 80px; font-size: 20px;">Normal Pay</button>
+
+                <button class="btn btn-success" id="PineLabsPay" onclick="$(this).Pay(1)"
+                    style="margin-left: 175px; font-size: 24px;line-height: 2;">Pine Labs Pay</button>
+                <button class="btn btn-success" id="PineLabsPayConfirm"  onclick="$(this).PineLabsPayConfirm()"
+                    style="margin-left: 80px; font-size: 24px;line-height: 2;">Pine Labs Confirm</button>
+                <!-- <button class="btn btn-danger" id="PineLabsPayCancel"  onclick="$(this).PineLabsPayCancel()"
+                    style="margin-left: 20px; font-size: 24px;line-height: 2;">Pine Labs Cancel</button> -->
+                    
+                <button class="btn btn-success" id="PaytmPay" onclick="$(this).Pay(2)"
+                    style="margin-left: 175px; font-size: 24px;line-height: 2;background-color: #1f336b; ">PaytmPay</button>
+                <button class="btn btn-success" id="PaytmPayConfirm" onclick="$(this).PaytmPayConfirm()"
+                style="margin-left: 80px; font-size: 24px;line-height: 2;background-color:#00baf2; ">PaytmPay Confirm</button>
+            </div>
+        </div>
+        <div class="row" style="font-size: 20px;" id="PineLabsTimeCounter">
+            <div class="col-sm-7"></div>
+            <div class="col-sm-5">
+                <div class="countdown-container " >
+                    <h1 id="RequestTime" style="font-size: 30px;font-weight: 700;"></h1>
+                    <div id="countdown" style="font-size: 30px;font-weight: 700;">
+                        <span id="minutes"></span>
+                        <span id="seconds"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="footer">
+            <button class="btn btn-danger" style="margin-top: -16px; float:right;"
+                onclick="$(this).Cancel()">Close</button>
+        </div> -->
+
+
+    </div>
+
+
+</body>
+
+
+</html>
+
+<script> window.$ = window.jQuery = require('jquery'); </script>
+<script>require('./billReceipt.js');</script>

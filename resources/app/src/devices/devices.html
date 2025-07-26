@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/datepicker.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/autocomplete.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/icons.css" rel="stylesheet" type="text/css" />
+     <!-- <link href="../../assets/css/custom.css" rel="stylesheet" type="text/css" /> -->
+     <!-- <link href="../../node_modules/autocompleter/autocomplete.js" rel="stylesheet" type="text/css" /> -->
+</head>
+<style>
+     .colhead {
+          color: black;
+     }
+
+     body {
+          color: black;
+          border-radius: 5px;
+          padding: 20px;
+          font-family: sans-serif;
+          text-align: justify;
+          /* border: 5px solid #0d0d0e; */
+     }
+</style>
+
+<body>
+
+     <div class="col-xs-8">
+          <div class="container">
+               <div class="row">
+                    <button class="btn btn-success" onclick="$(this).openDevicesPopupWindow()">
+                         Add POS Devices</button>
+               </div>
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-md-5">
+
+          </div>
+     </div>
+
+
+     <div class="col-md-12">
+          <div class="container">
+               <div class="row" style="margin-top: 20px;">
+
+                    <div id="productSales">
+                         <!-- <h4>Product List</h4> -->
+                         <!-- <hr> -->
+                         <table class="table tablesaw-enhanced" id="productsListTable">
+                              <thead>
+                                   <tr>
+
+                                        <th>Device Id</th>
+                                        <th>Device Name</th>
+                                        <th> Actions</th>
+
+
+
+                                   </tr>
+                              </thead>
+                              <tbody id="device_list"></tbody>
+                         </table>
+                    </div>
+
+               </div>
+          </div>
+     </div>
+
+     <div class="footer">
+          <button class="btn btn-danger" style="margin-top: -16px; float:right;"
+               onclick="$(this).Cancel()">Close</button>
+     </div>
+
+
+
+</body>
+
+</html>
+<script> window.$ = window.jQuery = require('jquery'); </script>
+<script>require('./devices.js');</script>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/core.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/pages.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/datepicker.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/autocomplete.css" rel="stylesheet" type="text/css" />
+     <link href="../../assets/css/icons.css" rel="stylesheet" type="text/css" />
+
+     <!-- <link href="../../assets/css/custom.css" rel="stylesheet" type="text/css" /> -->
+     <!-- <link href="../../node_modules/autocompleter/autocomplete.js" rel="stylesheet" type="text/css" /> -->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+</head>
+
+
+<body>
+     <div style="text-align-last:end">
+          <button id="Minimize" type="button" class="btn btn-primary waves-effect waves-light">
+              <i class="glyphicon glyphicon-minus"></i>
+          </button>
+          <button id="OrderBookingclose" type="button" class="btn btn-danger waves-effect waves-light">
+              <i class="glyphicon glyphicon-remove"></i>
+          </button>
+      </div>
+
+     <div class="row">
+          <!-- <h1 id="BulkOrderChanges" style="text-align: center; color: black; font-size: 25px;"></h1> -->
+          <div class="col-md-7">
+               <h1 id="BulkOrderChanges" style="text-align: right; color: black; font-size: 25px;"></h1>
+          </div>
+          <div class="col-md-2">
+             
+          </div>
+          <div class="col-md-3">
+               <h1 style="color: black; font-size: 25px;">
+                    <label for="type">Bill Type : </label>
+                    <!-- <label style="background-color: #5cb85c;border-radius: 10px;" id="IsType"></label> -->
+                    <span class="label label-success" style="color: black;" id="IsType"></span>
+                     <span class="label label-danger" id="IsTypeCancel"></span> 
+               </h1>
+          </div>
+     </div>
+
+     <div class="col-xs-6">
+          <div class="container">
+
+               <div class="row">
+                    <div class="col-md-7">
+                         <span>
+                              <label for="BookingNo">Booking No : </label>
+                              <label id="BookingNo"></label>
+                         </span>
+                         <span style="margin-left:22px;">
+                              <label for="CashierName">Cashier Name :</label>
+                              <label id="CashierName"></label>
+
+                         </span>
+                    </div>
+                    <div class="col-md-3">
+
+                         <label id="currentDateTime"></label>
+
+                    </div>
+               </div>
+
+
+               <div class="row">
+                    <div class="col-md-10">
+                         <input type="text" class="form-control" id="itemName"
+                              placeholder="Product Code/Product Name/Barcode Search"
+                              style="font-size: 30px;height: 60px;">
+                         <input type="text" style="display: none;" id="itemId">
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-md-3">
+                         <input type="text" class="form-control" id="quantity" placeholder="Quantity"
+                              style="font-size: 30px;height: 60px;">
+                    </div>
+               </div>
+
+               <div class="row" style="font-weight: bold;font-size: 20px;">
+                    <div class="col-md-5">
+
+                    </div>
+                    <div class="col-md-3">
+                         <label>Total Items :</label>
+                         <label id="TotalItems">0</label>
+                    </div>
+                    <!-- <div class="col-md-1">
+                    <label id="TotalItems">0</label>
+                </div> -->
+                    <div class="col-md-2" style="text-align: end;">
+                         <button class="btn btn-danger" id="deleteAllButton"  onclick="$(this).deleteAll()">Delete All</button>
+                    </div>
+               </div>
+               <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-10">
+                         <div id="productSales">
+                              <!-- <h4>Product List</h4> -->
+                              <!-- <hr> -->
+                              <table class="table tablesaw-enhanced" id="productsListTable">
+                                   <thead>
+                                        <tr>
+                                             <th></th>
+                                             <th>Product Name</th>
+                                             <th>UOM</th>
+                                             <th>Qty</th>
+                                             <th>Rate</th>
+                                             <th>GST%</th>
+                                             <th>Amount</th>
+
+                                        </tr>
+                                   </thead>
+                                   <tbody id="product_list"></tbody>
+                              </table>
+                         </div>
+
+                    </div>
+               </div>
+
+               <div class="row" style="font-weight: bold;font-size: 20px;">
+                    <div class="col-md-5">
+                         <label>Total</label>
+                    </div>
+                    <div class="col-md-5">
+                         <label id="totalAmt">0.00</label>
+                    </div>
+               </div>
+               <div class="row" style="font-weight: bold;font-size: 20px;">
+                    <div class="col-md-5">
+                         <label>Total GST</label>
+                    </div>
+                    <div class="col-md-5">
+                         <label id="totalGST">0.00</label>
+                    </div>
+               </div>
+               <div class="row" style="font-weight: bold;font-size: 20px;">
+                    <div class="col-md-5">
+                         <label>Round Off</label>
+                    </div>
+                    <div class="col-md-5">
+                         <label id="roundOff">0.00</label>
+                    </div>
+               </div>
+               <div class="row" style="font-weight: bold;font-size: 20px;">
+                    <div class="col-md-5">
+                         <label>Net Amount</label>
+                    </div>
+                    <div class="col-md-5">
+                         <label id="netAmount">0.00</label>
+                    </div>
+               </div>
+               <div class="row" style="font-weight: bold;font-size: 20px;">
+                    <div class="col-md-5">
+                         <label>Amount Received</label>
+                    </div>
+                    <div class="col-md-5">
+                         <label id="AmountReceived">0.00</label>
+                    </div>
+               </div>
+               <div class="row" style="font-weight: bold;font-size: 25px;">
+                    <div class="col-md-5">
+                         <label>Balance</label>
+                    </div>
+                    <div class="col-md-5">
+                         <label id="BalanceAmt">0.00</label>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="col-xs-6">
+          <div class="container">
+               <div class="row" style="font-size: 12pt;">
+                    <div class="col-xs-6">
+                         <label for="POSName">POS Name:</label>
+                         <!-- <label for="billCounterName">POS Name:</label> -->
+                         <label id="POSName"></label><br>
+                    </div>
+                    <div class="col-xs-6">
+                         <label for="billCounterName">Counter Name:</label>
+                         <label id="billCounterName"></label><br>
+                    </div>
+
+               </div>
+               <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">CustomerName</label>
+                    </div>
+                    <div class="col-xs-4">
+                         <input type="text" class="form-control" id="customerName" placeholder="Customer Name"  style="font-size: 20px ;" maxlength="50">
+                    </div>
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">PhoneNumber</label>
+                    </div>
+                    <div class="col-xs-4">
+                         <input type="text" class="form-control" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"   id="phoneNumber" placeholder="Phone #"
+                              style="font-size: 20px;" maxlength="12" min="0">
+                    </div>
+               </div>
+
+               <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">GST</label>
+                    </div>
+                    <div class="col-xs-4">
+                         <input type="text" class="form-control" id="gst"  maxlength="30" placeholder="GST #" style="font-size: 20px ;">
+                    </div>
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">RefNo</label>
+                    </div>
+                    <div class="col-xs-4"> 
+                         <input type="text" class="form-control" id="refno"  maxlength="20"   placeholder="RefNo"
+                              style="font-size: 20px ;">
+                    </div>
+               </div>
+
+               <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">Address</label>
+                    </div>
+                    <div class="col-xs-10">
+                         <textarea type="text" maxlength="300" class="form-control" id="Address" placeholder="Address"
+                              style="font-size: 20px ;"></textarea>
+                    </div>
+               </div>
+
+               <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">Notes</label>
+                    </div>
+                    <div class="col-xs-10">
+                         <textarea type="text" maxlength="300" class="form-control" name="BulkOrderNotes" id="BulkOrderNotes"  placeholder="Notes"
+                              style="font-size: 20px ;"></textarea>
+                    </div>
+               </div>
+
+               <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">Delivery Incharge</label>
+                    </div>
+                    <div class="col-xs-4">
+                         <input type="text" class="form-control"  maxlength="100" id="inCharge" placeholder="Delivery Incharge"
+                              style="font-size: 20px ;">
+                    </div>
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">Delivery Date</label>
+                    </div>
+                    <div class="col-xs-4">
+                         <!-- <input type="text" class="form-control" id="deliverydate" placeholder="Delivery Date"
+                              style="font-size: 20px ;"> -->
+
+                         <input type="text" class="form-control" class="required-field" id="deliverydate" placeholder="Delivery Date" style="font-size:20px;">
+
+                         <div  class="row" >
+                              <div class="col-xs-4">
+                                   <label style="font-size: 20px;">Hours</label>
+                                   <select name="deliveryhours" style="font-size:20px;" id="deliveryhours" class="form-control" class="required-field"></select>
+                              </div>
+                              <div class="col-xs-4">
+                                   <label style="font-size: 20px;">Minutes</label>
+                                   <select name="deliveryminutes" style="font-size:20px;" id="deliveryminutes" class="form-control" class="required-field"></select>
+                              </div>
+                              <div class="col-xs-4">
+                                   <label style="font-size: 20px;">AM/PM</label>
+                                   <select name="deliveryampm" style="font-size:20px;" id="deliveryampm" class="form-control" class="required-field"></select>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">VehicleName</label>
+                    </div>
+                    <div class="col-xs-4" style="font-size: 20px ;">
+                         <select id="Vehicle" style="width: 220px;"></select>
+                    </div>
+                    <div class="col-xs-2">
+                         <label style="font-size: 20px ;">Vessel Return Date</label>
+                    </div>
+                    <div class="col-xs-4">
+                         <input type="text" class="form-control" id="velReturndate" placeholder="Vessel Return Date"
+                              style="font-size: 20px ;">
+                    </div>
+
+               </div>
+               <div class="row">
+                    <div class="col-xs-6">
+
+
+                         <input type="text" class="form-control" id="VesselName" placeholder="Enter Vessel Items"
+                              style="font-size: 20px;height: 40px;">
+                         <input type="text" style="display: none;" id="itemId">
+                    </div>
+                    <div class="col-xs-3">
+                         <button class="btn btn-success" id="VesselName" style="margin-top:10px;"
+                              onclick="$(this).AddVesselList()">Add
+                              Vessel</button>
+
+                    </div>
+                    <div class="col-md-3" style="margin-top:18px;font-weight: bold;font-size: 20px;">
+                         <label>Total Vessels :</label>
+                         <label id="TotalVessels">0</label>
+                    </div>
+
+               </div>
+
+               <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-12">
+                         <div id="vesselSales">
+                              <!-- <h4>Product List</h4> -->
+                              <!-- <hr> -->
+                              <table class="table tablesaw-enhanced" id="productsListTable">
+                                   <thead>
+                                        <tr>
+                                             <th></th>
+                                             <th>Vessel Name</th>
+                                             <th>Qty</th>
+                                             <th>Qty Returned</th>
+                                        </tr>
+                                   </thead>
+                                   <tbody id="vessel_list"></tbody>
+                              </table>
+                         </div>
+
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-xs-6">
+                         <button class="btn btn-success" id="PaymentCompleted" style="margin-top:8px;"
+                              onclick="$(this).AddPaymentList()">
+                              Add Payment
+                         </button>
+                    </div>
+               </div>
+               <div class="row" style="margin-bottom: 83px;">
+                    <div class="col-md-12">
+                         <div id="vesselSales">
+
+                              <table class="table tablesaw-enhanced" id="productsListTable">
+                                   <thead>
+                                        <tr>
+                                             <th></th>
+                                             <th>Date</th>
+                                             <th>Amount</th>
+                                             <th>Cash</th>
+                                             <th>Card</th>
+                                             <th>Online</th>
+                                             <th>Advance</th>
+                                             <th>Notes</th>
+                                        </tr>
+                                   </thead>
+                                   <tbody id="payment_list"></tbody>
+                              </table>
+                         </div>
+
+                    </div>
+               </div>
+
+
+
+          </div>
+     </div>
+     <div class="container">
+          <div class="footerheight">
+               <div class="row">
+                    <div class="col-xs-8">
+                         <div class="container">
+                              <button class="btn btn-danger" onclick="$(this).Cancel()"
+                                   style="margin-left: 20px; font-size: 20px;">Cancel</button>
+
+                              <button class="btn btn-success" id="SaveData" onclick="$(this).saveData(0,true)"
+                                   style="margin-left: 20px; font-size: 20px;">Save</button>
+                              <button class="btn btn-success" id="EstimationCompleted"
+                                   onclick="$(this).SaveEstimationReport(0,'EstimationReport')" style="font-size: 20px;">Print
+                                   Estimation</button>
+                              <button class="btn btn-success" id="VessleReport" onclick="$(this).SaveVesselReport(0,'VesselReport')"
+                                   style="font-size: 20px;">Vessel Report</button>
+
+                              <!-- <button class="btn btn-success" id="IsCompleted" onclick="$(this).GenerateBill(1,true)"
+                                   style="font-size: 20px;">Save & Mark as Credit Bill</button> -->
+                              <button class="btn btn-success" id="IsCompleted" onclick="$(this).GenerateBill(0,true)"
+                                   style="font-size: 20px;">Save & Generate Bill</button>
+
+                                   <button class="btn btn-success" id="IsCreditBill" onclick="$(this).CreditBill(1,true)"
+                                   style="font-size: 20px;">Mark As CreditBill</button>
+                                 
+                                   <button class="btn btn-success" id="IsComplimentaryBill" onclick="$(this).ComplimentaryBill(1,true)"
+                                   style="font-size: 20px;">Mark As Complimentary</button>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </div>
+
+</body>
+
+</html>
+
+<script> window.$ = window.jQuery = require('jquery'); </script>
+<script src="../../assets/js/datepicker.min.js"></script>
+<script src="../../assets/js/datepickerjquery.min.js"></script>
+<script src="../../src/orderbooking/orderbooking.js"></script>
